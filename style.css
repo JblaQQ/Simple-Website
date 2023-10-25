@@ -1,0 +1,13 @@
+p {
+    width: 50%;
+    height: 50%;
+    color: blue;
+}
+
+.one{
+    position: static;
+} 
+
+.two{
+    position: fixed;
+}
