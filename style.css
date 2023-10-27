@@ -1,13 +1,50 @@
-p {
-    width: 50%;
-    height: 50%;
-    color: blue;
+*{ margin: 0;
+    padding: 0;
 }
 
-.one{
-    position: static;
-} 
+body {
+    font-family: sans-serif;
+}
 
-.two{
-    position: fixed;
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+
+
+.navbar{
+    background-image: linear-gradient(to right, #313B72, #7EE081);
+    padding: 0; !important;
+} 
+   
+
+
+.navbar-nav  li{
+padding: 0 10px;
+
+}
+
+.navbar-nav li a{
+color: #fff !important;
+font-weight: 600;
+float:right ;
+text-align: left;
+}
+
+.far-bar                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
+ color: #fff;
+ font-size: 30px !important;
+}
+
+.navbar-toggler{
+    outline: none !important;
+}
+
+/*-------------banner section------*/
+
+.sutr{
+    width: 100%;
 }
